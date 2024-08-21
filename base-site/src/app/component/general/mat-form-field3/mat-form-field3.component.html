@@ -1,0 +1,11 @@
+<mat-form-field>
+  <input
+    type="text"
+    disabled
+    matInput
+    [matDatepicker]="departureDate"
+    placeholder="Departure date"
+  />
+  <mat-datepicker-toggle matSuffix [for]="departureDate"></mat-datepicker-toggle>
+  <mat-datepicker #departureDate></mat-datepicker>
+</mat-form-field>

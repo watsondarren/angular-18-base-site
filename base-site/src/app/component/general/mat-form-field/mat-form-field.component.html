@@ -1,0 +1,12 @@
+<div>
+  <mat-form-field>
+    <mat-label>Computer scientists</mat-label>
+    <input matInput [matAutocomplete]="autocomplete" />
+  </mat-form-field>
+
+  <mat-autocomplete #autocomplete>
+    <mat-option value="Grace Hopper">Grace Hopper</mat-option>
+    <mat-option value="Anita Borg">Anita Borg</mat-option>
+    <mat-option value="Ada Lovelace">Ada Lovelace</mat-option>
+  </mat-autocomplete>
+</div>
